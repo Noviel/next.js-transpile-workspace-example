@@ -1,4 +1,4 @@
-# Next.js transpile monorepo problem
+# Next.js transpile dynamic import problem
 
 ## Project setup
 
