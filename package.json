@@ -1,0 +1,19 @@
+{
+  "name": "nextjs-transpile-monorepo-problem",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {},
+  "workspaces": [
+    "packages/**"
+  ],
+  "scripts": {
+    "dev": "yarn workspace @next-problem/next-app dev"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/node": "^11.13.8",
+    "@zeit/next-typescript": "^1.1.1"
+  }
+}
