@@ -19,7 +19,7 @@
     "lib": ["dom", "es2016", "webworker"],
     "baseUrl": "./packages/",
     "paths": {
-      "@next-tests/*": ["./*"]
+      "@next-problem/*": ["./*"]
     },
   },
   "exclude": ["node_modules"]
