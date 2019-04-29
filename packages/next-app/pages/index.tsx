@@ -1,6 +1,8 @@
 import React from "react";
 import { NextStatelessComponent } from "next";
 
+import { Compik } from "@next-problem/shared/Component";
+
 const Page: NextStatelessComponent<{}> = () => {
   const [value, setValue] = React.useState("Awaiting");
 
@@ -13,6 +15,7 @@ const Page: NextStatelessComponent<{}> = () => {
   return (
     <div>
       <h1>import() failure example</h1>
+      <Compik />
       <p>dynamic value: {value}</p>
     </div>
   );
